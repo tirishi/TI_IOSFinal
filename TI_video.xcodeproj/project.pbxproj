@@ -19,6 +19,19 @@
 		46290B50182068E000875997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46290B38182068E000875997 /* UIKit.framework */; };
 		46290B58182068E000875997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46290B56182068E000875997 /* InfoPlist.strings */; };
 		46290B5A182068E000875997 /* TI_videoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46290B59182068E000875997 /* TI_videoTests.m */; };
+		46290B681820764C00875997 /* WebService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46290B671820764C00875997 /* WebService.storyboard */; };
+		46290B6F1822EAE900875997 /* UTDWebServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46290B6E1822EAE900875997 /* UTDWebServicesViewController.m */; };
+		46290B751822F2F400875997 /* UTDResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46290B741822F2F400875997 /* UTDResultsViewController.m */; };
+		465D8EFB183BF7D1007BFF0F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465D8EFA183BF7D1007BFF0F /* AudioToolbox.framework */; };
+		465D8EFD183BFA8F007BFF0F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465D8EFC183BFA8F007BFF0F /* MediaPlayer.framework */; };
+		465D8EFF183BFA9F007BFF0F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465D8EFE183BFA9F007BFF0F /* MobileCoreServices.framework */; };
+		465D8F0A183C0B77007BFF0F /* libKalturaClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 465D8F07183C0B4C007BFF0F /* libKalturaClient.a */; };
+		465D8F19183C2D62007BFF0F /* UTDVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465D8F18183C2D62007BFF0F /* UTDVideoListViewController.m */; };
+		465D8F1C183C2E38007BFF0F /* UTDPlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465D8F1B183C2E38007BFF0F /* UTDPlayVideoViewController.m */; };
+		F3DF57D2184F0DA100CD5750 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DF57D1184F0DA100CD5750 /* libz.dylib */; };
+		F3DF57D4184F0DAC00CD5750 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DF57D3184F0DAC00CD5750 /* libxml2.dylib */; };
+		F3DF57D6184F0DB700CD5750 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DF57D5184F0DB700CD5750 /* CFNetwork.framework */; };
+		F3DF57D8184F0DCC00CD5750 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3DF57D7184F0DCC00CD5750 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +41,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 46290B30182068E000875997;
 			remoteInfo = TI_video;
+		};
+		465D8F06183C0B4C007BFF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465D8F02183C0B4C007BFF0F /* KalturaClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 29133452149646BB006D8A8C;
+			remoteInfo = KalturaClient;
+		};
+		465D8F08183C0B6A007BFF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465D8F02183C0B4C007BFF0F /* KalturaClient.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 29133451149646BB006D8A8C;
+			remoteInfo = KalturaClient;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,6 +75,23 @@
 		46290B55182068E000875997 /* TI_videoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TI_videoTests-Info.plist"; sourceTree = "<group>"; };
 		46290B57182068E000875997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46290B59182068E000875997 /* TI_videoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TI_videoTests.m; sourceTree = "<group>"; };
+		46290B671820764C00875997 /* WebService.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WebService.storyboard; sourceTree = "<group>"; };
+		46290B6D1822EAE900875997 /* UTDWebServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDWebServicesViewController.h; sourceTree = "<group>"; };
+		46290B6E1822EAE900875997 /* UTDWebServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDWebServicesViewController.m; sourceTree = "<group>"; };
+		46290B731822F2F400875997 /* UTDResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDResultsViewController.h; sourceTree = "<group>"; };
+		46290B741822F2F400875997 /* UTDResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDResultsViewController.m; sourceTree = "<group>"; };
+		465D8EFA183BF7D1007BFF0F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		465D8EFC183BFA8F007BFF0F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		465D8EFE183BFA9F007BFF0F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		465D8F02183C0B4C007BFF0F /* KalturaClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KalturaClient.xcodeproj; path = KalturaClient/KalturaClient.xcodeproj; sourceTree = "<group>"; };
+		465D8F17183C2D62007BFF0F /* UTDVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDVideoListViewController.h; sourceTree = "<group>"; };
+		465D8F18183C2D62007BFF0F /* UTDVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDVideoListViewController.m; sourceTree = "<group>"; };
+		465D8F1A183C2E38007BFF0F /* UTDPlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTDPlayVideoViewController.h; sourceTree = "<group>"; };
+		465D8F1B183C2E38007BFF0F /* UTDPlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTDPlayVideoViewController.m; sourceTree = "<group>"; };
+		F3DF57D1184F0DA100CD5750 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F3DF57D3184F0DAC00CD5750 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F3DF57D5184F0DB700CD5750 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F3DF57D7184F0DCC00CD5750 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +99,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DF57D8184F0DCC00CD5750 /* SystemConfiguration.framework in Frameworks */,
+				465D8EFF183BFA9F007BFF0F /* MobileCoreServices.framework in Frameworks */,
+				F3DF57D6184F0DB700CD5750 /* CFNetwork.framework in Frameworks */,
+				F3DF57D4184F0DAC00CD5750 /* libxml2.dylib in Frameworks */,
+				F3DF57D2184F0DA100CD5750 /* libz.dylib in Frameworks */,
+				465D8F0A183C0B77007BFF0F /* libKalturaClient.a in Frameworks */,
+				465D8EFD183BFA8F007BFF0F /* MediaPlayer.framework in Frameworks */,
+				465D8EFB183BF7D1007BFF0F /* AudioToolbox.framework in Frameworks */,
 				46290B37182068E000875997 /* CoreGraphics.framework in Frameworks */,
 				46290B39182068E000875997 /* UIKit.framework in Frameworks */,
 				46290B35182068E000875997 /* Foundation.framework in Frameworks */,
@@ -77,6 +129,7 @@
 		46290B28182068E000875997 = {
 			isa = PBXGroup;
 			children = (
+				465D8F02183C0B4C007BFF0F /* KalturaClient.xcodeproj */,
 				46290B3A182068E000875997 /* TI_video */,
 				46290B53182068E000875997 /* TI_videoTests */,
 				46290B33182068E000875997 /* Frameworks */,
@@ -96,6 +149,13 @@
 		46290B33182068E000875997 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3DF57D7184F0DCC00CD5750 /* SystemConfiguration.framework */,
+				F3DF57D5184F0DB700CD5750 /* CFNetwork.framework */,
+				F3DF57D3184F0DAC00CD5750 /* libxml2.dylib */,
+				F3DF57D1184F0DA100CD5750 /* libz.dylib */,
+				465D8EFE183BFA9F007BFF0F /* MobileCoreServices.framework */,
+				465D8EFC183BFA8F007BFF0F /* MediaPlayer.framework */,
+				465D8EFA183BF7D1007BFF0F /* AudioToolbox.framework */,
 				46290B34182068E000875997 /* Foundation.framework */,
 				46290B36182068E000875997 /* CoreGraphics.framework */,
 				46290B38182068E000875997 /* UIKit.framework */,
@@ -107,8 +167,17 @@
 		46290B3A182068E000875997 /* TI_video */ = {
 			isa = PBXGroup;
 			children = (
+				46290B731822F2F400875997 /* UTDResultsViewController.h */,
+				46290B741822F2F400875997 /* UTDResultsViewController.m */,
 				46290B43182068E000875997 /* UTDAppDelegate.h */,
 				46290B44182068E000875997 /* UTDAppDelegate.m */,
+				46290B671820764C00875997 /* WebService.storyboard */,
+				465D8F1A183C2E38007BFF0F /* UTDPlayVideoViewController.h */,
+				465D8F1B183C2E38007BFF0F /* UTDPlayVideoViewController.m */,
+				465D8F17183C2D62007BFF0F /* UTDVideoListViewController.h */,
+				465D8F18183C2D62007BFF0F /* UTDVideoListViewController.m */,
+				46290B6D1822EAE900875997 /* UTDWebServicesViewController.h */,
+				46290B6E1822EAE900875997 /* UTDWebServicesViewController.m */,
 				46290B46182068E000875997 /* Images.xcassets */,
 				46290B3B182068E000875997 /* Supporting Files */,
 			);
@@ -144,6 +213,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		465D8F03183C0B4C007BFF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465D8F07183C0B4C007BFF0F /* libKalturaClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +235,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				465D8F09183C0B6A007BFF0F /* PBXTargetDependency */,
 			);
 			name = TI_video;
 			productName = TI_video;
@@ -207,6 +285,12 @@
 			mainGroup = 46290B28182068E000875997;
 			productRefGroup = 46290B32182068E000875997 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 465D8F03183C0B4C007BFF0F /* Products */;
+					ProjectRef = 465D8F02183C0B4C007BFF0F /* KalturaClient.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				46290B30182068E000875997 /* TI_video */,
@@ -215,6 +299,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		465D8F07183C0B4C007BFF0F /* libKalturaClient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKalturaClient.a;
+			remoteRef = 465D8F06183C0B4C007BFF0F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		46290B2F182068E000875997 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -222,6 +316,7 @@
 			files = (
 				46290B3F182068E000875997 /* InfoPlist.strings in Resources */,
 				46290B47182068E000875997 /* Images.xcassets in Resources */,
+				46290B681820764C00875997 /* WebService.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +336,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46290B45182068E000875997 /* UTDAppDelegate.m in Sources */,
+				46290B6F1822EAE900875997 /* UTDWebServicesViewController.m in Sources */,
+				465D8F1C183C2E38007BFF0F /* UTDPlayVideoViewController.m in Sources */,
+				465D8F19183C2D62007BFF0F /* UTDVideoListViewController.m in Sources */,
 				46290B41182068E000875997 /* main.m in Sources */,
+				46290B751822F2F400875997 /* UTDResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +359,11 @@
 			isa = PBXTargetDependency;
 			target = 46290B30182068E000875997 /* TI_video */;
 			targetProxy = 46290B51182068E000875997 /* PBXContainerItemProxy */;
+		};
+		465D8F09183C0B6A007BFF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KalturaClient;
+			targetProxy = 465D8F08183C0B6A007BFF0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -316,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -349,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -362,8 +466,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TI_video/TI_video-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Users/UTD74201/Downloads/TI_video/KalturaClient/KalturaClient,
+					/Users/UTD74201/Downloads/TI_video/KalturaClient/KalturaClient/KalturaPlugins,
+					/Users/UTD74201/Downloads/TI_video/KalturaClient/KalturaClient/ASIHTTPRequest,
+				);
 				INFOPLIST_FILE = "TI_video/TI_video-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,8 +486,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TI_video/TI_video-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Users/UTD74201/Downloads/TI_video/KalturaClient/KalturaClient,
+					/Users/UTD74201/Downloads/TI_video/KalturaClient/KalturaClient/KalturaPlugins,
+					/Users/UTD74201/Downloads/TI_video/KalturaClient/KalturaClient/ASIHTTPRequest,
+				);
 				INFOPLIST_FILE = "TI_video/TI_video-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,6 +560,7 @@
 				46290B5F182068E000875997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46290B60182068E000875997 /* Build configuration list for PBXNativeTarget "TI_videoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +569,7 @@
 				46290B62182068E000875997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
